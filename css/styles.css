@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One");
+/* this font is for nav and hero-image words*/
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+/* this font is for boxes*/
+body {
+  margin-top: 105px;
+  line-height: 2;
+  color: #222; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff;
+  font-family: "Patua One"; }
+  .navbar .nav-item {
+    font-size: 1.3rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  font-family: "Patua One"; }
+
+#newsletter {
+  min-height: 100px; }
+
+#boxes p {
+  line-height: 1.7;
+  font-family: 'Hammersmith One'; }
+
+#about .container {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
+@media (max-width: 480px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3.5rem; }
+    #showcase blockquote {
+      font-size: 1.2rem; }
+
+  nav .img-fluid {
+    width: 35px;
+    height: 40px; }
+  nav h3 {
+    font-size: 1.5rem; } }
