@@ -84,3 +84,10 @@ body {
     height: 40px; }
   nav h3 {
     font-size: 1.5rem; } }
+
+ @media (max-width: 325px) {
+      .hero-heading {
+        font-size: 3rem !important;
+        margin: 0 !important;
+      }
+    }
