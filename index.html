@@ -12,9 +12,9 @@
   <title> CyberPunk</title>
 </head>
 
-<body>
+<body id="home">
 
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light py-3">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light py-3" id="main-nav">
     <div class="container">
       <a href="#home" class="navbar-brand">
         <img src="img/logo.png" width="40" height="40" alt="logo" class="mr-2 img-fluid">
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#authors" class="nav-link">Meet the Authors</a>
+            <a href="#cyberthreat" class="nav-link">Meet the Authors</a>
           </li>
 
           <li class="nav-item">
@@ -55,7 +55,8 @@
           <h1 class="display-2 mt-4 pt-4">Do what you dream of ...</h1>
           <blockquote class="blockquote mt-3 mb-3">"Never underestimate the determination of a kid who is time-rich and
             cash-poor"</blockquote>
-          <footer class="blockquote-footer mt-3 mb-3">Cory Doctorow <cite title="Source Title">Little Brother</cite></footer>
+          <footer class="blockquote-footer mt-3 mb-3">Cory Doctorow <cite title="Source Title">Little Brother</cite>
+          </footer>
           <a href="#" class="btn btn-outline-secondary text-dark font-italic">Read More</a>
         </div>
 
@@ -166,7 +167,8 @@
           <div id="accordian">
             <div class="card">
               <div class="card-header">
-                <h5><a href="#collapse1" data-parent="#accordian" data-toggle="collapse"> <i class="fas fa-arrow-circle-down">
+                <h5><a href="#collapse1" data-parent="#accordian" data-toggle="collapse"> <i
+                      class="fas fa-arrow-circle-down font-italic">
                       What is Cybercrime?</i></a></h5>
               </div>
 
@@ -184,7 +186,8 @@
 
             <div class="card">
               <div class="card-header">
-                <h5> <a href="#collapse2" data-parent="#accordian" data-toggle="collapse"><i class="fas fa-arrow-circle-down">
+                <h5> <a href="#collapse2" data-parent="#accordian" data-toggle="collapse"><i
+                      class="fas fa-arrow-circle-down font-italic">
                       Why Ethical Hacking?</i></a></h5>
               </div>
 
@@ -203,7 +206,8 @@
 
             <div class="card">
               <div class="card-header">
-                <h5> <a href="#collapse3" data-parent="#accordian" data-toggle="collapse"><i class="fas fa-arrow-circle-down">
+                <h5> <a href="#collapse3" data-parent="#accordian" data-toggle="collapse"><i
+                      class="fas fa-arrow-circle-down font-italic">
                       Legality of Ethical Hacking</i></a></h5>
               </div>
 
@@ -242,7 +246,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
               <img src="img/person1.jpg" class="img-fluid rounded-circle w-50 mb-3">
@@ -272,7 +276,7 @@
         </div>
 
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
               <img src="img/person2.jpg" class="img-fluid rounded-circle w-50 mb-3">
@@ -302,7 +306,7 @@
         </div>
 
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
               <img src="img/person3.jpg" class="img-fluid rounded-circle w-50 mb-3">
@@ -333,7 +337,7 @@
 
 
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 mb-5">
           <div class="card">
             <div class="card-body">
               <img src="img/person4.jpg" class="img-fluid rounded-circle w-50 mb-3">
@@ -364,6 +368,64 @@
       </div>
     </div>
   </section>
+
+  <!-- contact section -->
+
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h3 class="display-4">Get in touch</h3>
+          <form>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+
+              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+            </div>
+
+            <input type="text" value="Submit" class="btn btn-primary btn-lg btn-block">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+
+  <footer id="main-footer" class="py-5 bg-primary text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col ml-auto">
+          <p class="lead">Copyright &copy; <span id="year"></span> CyberPunk</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
